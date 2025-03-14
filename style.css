@@ -1,0 +1,104 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+section{
+    width: 100%;
+    height: fit-content;
+}
+
+.container{
+    width: 320px;
+    min-height: 350px;
+    margin: auto;
+    border: solid blue;
+    border-radius: 10px;
+    margin-top: 70px;
+    background-color: grey;
+}
+
+.calculator{
+    width: 100%;
+    /* margin: auto; */
+    border: darkgrey;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+p{
+    font-weight: bolder;
+    line-height: 15px;
+}
+
+.calculator input{
+    width: 85%;
+    height: 50px;
+    margin-bottom: 5px;
+    border: solid blue;
+    border-radius: 10px;
+    text-align: end;
+    font-size: larger;
+}
+
+.calculator button{
+    width: 65px; /* Assign a fixed width */
+    height: 50px; /* Assign a fixed height */
+    font-size: 16px;
+    border: solid blue;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 5px;
+    
+    margin-right: 7px;
+    background-color: darkgray;
+}
+
+.first{
+    display: flex;
+    
+}
+.first button{
+    color: brown;
+    font-weight: bold;
+}
+
+
+
+.second{
+    display: flex;
+}
+
+.second button{
+    color: brown;
+    font-weight: bold;
+}
+
+.third{
+    display: flex;
+}
+
+.third button{
+    color: brown;
+    font-weight: bold;
+}
+
+.forth{
+    display: flex;  
+}
+
+.forth button{
+    color: brown;
+    font-weight: bold;
+}
+
+.firth{
+    display: flex;
+}
+
+.firth button{
+    color: brown;
+    font-weight: bold;
+}
